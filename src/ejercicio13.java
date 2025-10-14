@@ -12,9 +12,9 @@ public class ejercicio13 {
 
         //Hacemos las comprobaciones de los numeros para que nos diga la forma ascendente
         if (primer_numero < segundo_numero) {
-            System.out.println("Numeros en forma ascendente:" + primer_numero + "," + segundo_numero);
+            System.out.println("Numeros en forma ascendente: " + primer_numero + "," + segundo_numero);
         } else if (primer_numero > segundo_numero) {
-            System.out.println("Numeros en forma ascendente:" + segundo_numero + "," + primer_numero);
+            System.out.println("Numeros en forma ascendente: " + segundo_numero + "," + primer_numero);
         } else{
             System.out.println("Ambos numeros son iguales.");
         }

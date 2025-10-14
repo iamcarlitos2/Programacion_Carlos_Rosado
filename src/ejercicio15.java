@@ -12,6 +12,14 @@ public class ejercicio15 {
         int tercer_numero = sc.nextInt();
 
         //Vamos a realizar las condicionales para ver cual es el mayor de ellos.
-
+        if (primer_numero > segundo_numero && primer_numero> tercer_numero) {
+            System.out.println(primer_numero + " es el numero mayor");
+        } else if (segundo_numero > primer_numero && segundo_numero > tercer_numero) {
+            System.out.println(segundo_numero + " es el numero mayor");
+        } else if (tercer_numero > primer_numero && tercer_numero > segundo_numero) {
+            System.out.println(tercer_numero + " es el numero mayor");
+        } else if (primer_numero == segundo_numero && primer_numero == tercer_numero && segundo_numero == tercer_numero){
+            System.out.println("Los numeros no pueden ser iguales");
+        }
     }
 }
