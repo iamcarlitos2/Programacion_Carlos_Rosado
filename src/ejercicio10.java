@@ -15,7 +15,7 @@ public class ejercicio10 {
         int division;
 
         if (segundo_numero == 0) {
-             division = 0;
+             division = 0; //Le decimos que tamien esta disponible la division entre 0
         } else {
              division = (primer_numero/segundo_numero);
         }
