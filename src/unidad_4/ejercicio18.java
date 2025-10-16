@@ -19,7 +19,7 @@ public class ejercicio18 {
             salarioBruto = 35 * tarifa + (horas-35) * tarifa * 1.5;
         }
 
-        //Calculamos los impuestos para su posterior resultado
+        //Calculamos los impuestos
         double impuestos;
         if (salarioBruto <= 500) {
             impuestos = 0;
