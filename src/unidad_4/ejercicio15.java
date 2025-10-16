@@ -1,4 +1,5 @@
-import javax.swing.plaf.synth.SynthTextAreaUI;
+package unidad_4;
+
 import java.util.Scanner;
 public class ejercicio15 {
     public static void main(String[] args) {
