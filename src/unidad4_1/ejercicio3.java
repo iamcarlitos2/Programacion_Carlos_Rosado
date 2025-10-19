@@ -1,4 +1,4 @@
-package unidad_4;
+package unidad4_1;
 
 import java.util.Scanner; //importamos el scanner, el cual nos leera lo que introducimos por teclado
 public class ejercicio3 {

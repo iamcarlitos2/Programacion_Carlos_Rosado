@@ -1,4 +1,4 @@
-package unidad_4;
+package unidad4_1;
 
 import java.util.Scanner;
 public class ejercicio17 {
@@ -30,7 +30,7 @@ public class ejercicio17 {
             horas = 0;
         }
 
-        //Mostramos por consola el resultado
+        //Mostramos por consola el resultado total de las g
         System.out.printf("La hora será: ", horas, minutos, segundos); //Colocamos printf, ya que nos permite colocar dos digitos
     }
 }

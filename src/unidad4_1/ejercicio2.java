@@ -1,4 +1,4 @@
-package unidad_4;
+package unidad4_1;
 
 public class ejercicio2 {
     public static void main(String[] args){
