@@ -32,7 +32,7 @@ public class ejercicio18 {
         //Calculamos el salario neto
         double salarioNeto  = salarioBruto - impuestos;
 
-        //Mostramos los resultados que hemos
+        //Mostramos los resultados
         System.out.println("Salario bruto: " + salarioBruto + " €");
         System.out.println("Impuestos: " + impuestos + " €");
         System.out.println("Salario neto: " + salarioNeto + " €");
