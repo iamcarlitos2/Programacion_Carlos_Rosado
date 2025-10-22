@@ -21,14 +21,12 @@ public class ejercicio17 {
         if (segundos == 60){
             segundos = 0;
             minutos++;
-        }
-        if (minutos == 60) {
-            minutos = 0;
-            horas++;
-        }
-        if (horas == 24) {
-            horas = 0;
-        }
+        } if (minutos == 60) {
+                 minutos = 0;
+                 horas++;
+             } if (horas == 24) {
+                    horas = 0;
+                }
 
         //Mostramos por consola el resultado total de las g
         System.out.printf("La hora será: ", horas, minutos, segundos); //Colocamos printf, ya que nos permite colocar dos digitos

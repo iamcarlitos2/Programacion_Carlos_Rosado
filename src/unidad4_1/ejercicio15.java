@@ -19,7 +19,7 @@ public class ejercicio15 {
             System.out.println(segundo_numero + " es el numero mayor");
         } else if (tercer_numero > primer_numero && tercer_numero > segundo_numero) {
             System.out.println(tercer_numero + " es el numero mayor");
-        } else if (primer_numero == segundo_numero && primer_numero == tercer_numero && segundo_numero == tercer_numero){
+        } else{
             System.out.println("Los numeros no pueden ser iguales");
         }
     }

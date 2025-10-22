@@ -10,7 +10,7 @@ public class ejercicio16 {
         int calificacion = sc.nextInt();
 
         //Realizamos las condicionales para ver la calificacion de la nota
-         if (calificacion <0 || calificacion>10){
+         if (calificacion < 0 || calificacion > 10){
              System.out.println("Error: La calificacion debe de estar entre 0 y 10");
          } else if (calificacion < 3) {
              System.out.println("Muy deficiente");
@@ -20,7 +20,7 @@ public class ejercicio16 {
              System.out.println("Bien");
          } else if (calificacion < 9){
              System.out.println("Notable");
-         } else if (calificacion >= 9) {
+         } else {
              System.out.println("Sobresaliente");
          }
     }
