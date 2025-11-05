@@ -11,18 +11,16 @@ public class ejercicio_8 {
 
         System.out.println("Introduce un numero (si escribes el 0 se terminara el bucle)");
 
-        while (true) { //Mientras sea verdad ejectuamos el resto.
-            numero = sc.nextInt();
+        do {
+            numero = sc.nextInt();;
 
-            if (numero == 0) {
-                break;
-            }
-            if (numero > 0) {
+            if (numero > 0){
                 numero_positivo++;
-            } else {
+            } else if (numero < 0) {
                 numero_negativo++;
             }
-        }
+        } while (numero != 0);
+
         System.out.println("Hay " + numero_positivo + " numeros positivos");
         System.out.println("Hay " + numero_negativo + " numeros negativos");
     }

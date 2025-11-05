@@ -9,8 +9,8 @@ public class ejercicio5 {
 
         int factorial = 1;
 
-        for (int i = 1; i <= numero; i++) {
-            factorial = factorial * i;
+        for (int index = 1; index <= numero; index++) { //El index en este caso seria el acumulador.
+            factorial = factorial * index;
         }
 
         System.out.println("El factorial de " + numero + " es: " + factorial);

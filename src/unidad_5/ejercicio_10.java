@@ -7,19 +7,19 @@ public class ejercicio_10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int nota;
+        int nota, nota_diez = 0;
 
         System.out.println("Introduce una nota (si escribes -1 termina el bucle)");
 
-        while (true) {
+        do {
             nota = sc.nextInt();
 
-            if (nota == -1) {
-                break;
-            }
             if (nota == 10) {
-                System.out.println("Ha habiado una " + nota + "con valor de 10");
+                nota_diez++;
+                System.out.println("He encontrado: " + nota_diez + " nota con valor de 10");
+
             }
-        }
+        } while (nota != -1);
+        System.out.println("Error, has introducido una nota incorrecta");
     }
 }
