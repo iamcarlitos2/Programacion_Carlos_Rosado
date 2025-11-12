@@ -9,25 +9,25 @@ public class ejercicio_1 {
 
         Scanner sc = new Scanner(System.in);
 
-        int edad, mayores = 0, numero_alumnos = 0, media = 0, total_edad = 0;
+        int edad, suma = 0, mayores = 0, numero_alumnos = 0, media;
 
         do {
             System.out.println("Introduce la edad de los alumnos: ");
             edad = sc.nextInt();
 
-            if (edad >= 0) {
-                edad = edad + total_edad;
-                numero_alumnos ++;
-                media = total_edad / numero_alumnos;
-
-                if (edad >= 18) {
-                    mayores++;
-
-                }
+            if (edad <= 0) {
+                System.out.println("No puedes introducir una edad negativa");
+            } else {
+                suma = suma + edad;
+                numero_alumnos++;
+            }
+            if (edad <=18){
+                mayores++;
             }
 
         } while (edad >= 0);
 
+        media = suma / numero_alumnos;
         System.out.println("La media de las edades es: " + media);
         System.out.println("El numero total de alumnos es: " + numero_alumnos);
         System.out.println("Alumnos mayores de edad: " + mayores);

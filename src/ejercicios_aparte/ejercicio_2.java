@@ -11,7 +11,7 @@ public class ejercicio_2 {
         System.out.println("Introduce el numero hasta el que quieres llegar de la serie Fibonacci: ");
         N = sc.nextInt();
 
-        for (int index = 1; index <= N; index++){
+        for (int index = 0; index <= N; index++){
 
             int siguiente_numero = numero_anterior + numero_anterior;
 
@@ -19,7 +19,7 @@ public class ejercicio_2 {
             numero_posterior = siguiente_numero;
 
 
-            System.out.println(siguiente_numero);
+            System.out.println(" " + siguiente_numero);
         }
     }
 }
