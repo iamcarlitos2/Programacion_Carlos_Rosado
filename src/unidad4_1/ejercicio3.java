@@ -1,3 +1,5 @@
+package unidad4_1;
+
 import java.util.Scanner; //importamos el scanner
 public class ejercicio3 {
     public static void main(String[] args){

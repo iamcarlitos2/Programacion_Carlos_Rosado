@@ -1,4 +1,5 @@
-import java.util.Scanner;  //importamos el scanner
+package unidad4_1;
+
 public class ejercicio2 {
     public static void main(String[] args){
         int lado = 5;  //lado del cuadrado
