@@ -9,7 +9,7 @@ public class ejercicio_11 {
 
         //Declaramos las variables
         int primer_array[] = new int[100];
-        int segundo_array[] = new int[100];
+        int segundo_array[] = new int[10];
 
         for (int index = 0; index < 100; index++){
             primer_array[index] = index + 1;
