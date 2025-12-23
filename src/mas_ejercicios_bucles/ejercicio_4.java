@@ -1,6 +1,6 @@
 //Escribir un programa que muestre los multiplos de 7 menores de 100
 
-package ejercicios_aparte;
+package mas_ejercicios_bucles;
 
 public class ejercicio_4 {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 //Escriba un programa para mostrar los primeros n términos de la serie de Fibonacci.
-package ejercicios_aparte;
+package mas_ejercicios_bucles;
 import java.util.Scanner;
 
 public class ejercicio_2 {

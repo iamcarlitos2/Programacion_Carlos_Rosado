@@ -3,13 +3,13 @@ package unidad_5;
 import java.util.Scanner;
 
 public class ejercicio_16 {
-    public static void main(String[] args) {
+    static void main() {
          Scanner sc = new Scanner(System.in);
 
          int numero;
          boolean numero_primo = false;
 
-         System.out.println("Introdue un numero para saber si es primo");
+         System.out.println("Introduce un numero para saber si es primo");
          numero = sc.nextInt();
 
          for(int index = 1; index <= numero; index++){
@@ -17,14 +17,11 @@ public class ejercicio_16 {
                  numero_primo = true;
              }
 
-             if (numero_primo == true && numero != 1){
-                 System.out.println("El numero es primo");
-             } else {
+             if (!numero_primo){
                  System.out.println("El numero no es primo");
+             } else {
+                 System.out.println("El numero es primo");
              }
-
         }
-
-
     }
 }

@@ -2,7 +2,7 @@
 //Las tres primeras notas ponderan el 20 por ciento de la nota final, las tres segundas ponderan el 30 por ciento de la nota final
 //Y las 4 ultimas ponderan el 50 por ciento de la nota final
 
-package ejercicios_aparte;
+package mas_ejercicios_bucles;
 import java.util.Scanner;
 
 public class ejercicio_5 {
@@ -26,6 +26,6 @@ public class ejercicio_5 {
         }
 
         double nota_final = (suma20 / 3) * 0.2 + (suma30 / 3) * 0.3 + (suma50 / 4) * 0.5;
-        System.out.println("La nota final es: " +nota_final);
+        System.out.println("La nota final es: " + nota_final);
     }
 }

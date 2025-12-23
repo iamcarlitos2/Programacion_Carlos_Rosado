@@ -1,7 +1,7 @@
 //Escribe una aplicación para calcular datos estadísticos de las edades de los alumnos de un centro educativo.
 // Se introducirán datos hasta que uno de ellos sea negativo, y se mostrará: la suma de todas las edades introducidas,
 // la media, el número de alumnos y cuántos son mayores de edad.
-package ejercicios_aparte;
+package mas_ejercicios_bucles;
 import java.util.Scanner;
 
 public class ejercicio_1 {
