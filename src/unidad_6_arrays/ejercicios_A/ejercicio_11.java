@@ -1,6 +1,6 @@
 //Crea un programa que cree dos arrays enteros de tamaño 100. Luego introducira en elprimer array todos los valores del 1 al 100.
 //Por ultimo debera copiar todos los valores del primer array al segundo array en orden inverso y mostrar ambos por pantalla.
-package unidad_6_arrays;
+package unidad_6_arrays.ejercicios_A;
 import java.util.Scanner;
 
 public class ejercicio_11 {
@@ -9,7 +9,7 @@ public class ejercicio_11 {
 
         //Declaramos las variables
         int primer_array[] = new int[100];
-        int segundo_array[] = new int[10];
+        int segundo_array[] = new int[100];
 
         for (int index = 0; index < 100; index++){
             primer_array[index] = index + 1;

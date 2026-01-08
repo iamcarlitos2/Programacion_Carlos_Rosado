@@ -1,7 +1,7 @@
 //Crea un programa que cree un array con 100 números reales aleatorios entre 0.0 y 1.0,
 //utilizando Math.random(), y luego le pida al usuario un valor real R. Por último, mostrará
 //cuántos valores del array son igual o superiores a R.
-package unidad_6_arrays;
+package unidad_6_arrays.ejercicios_A;
 import java.util.Scanner;
 
 public class ejercicio_8 {

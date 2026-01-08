@@ -1,6 +1,6 @@
 //Crea un programa que pida diez números reales por teclado, los almacene en un array, y
 //luego muestre todos sus valores.
-package unidad_6_arrays;
+package unidad_6_arrays.ejercicios_A;
 import java.util.Scanner;
 
 public class ejercicio_1 {

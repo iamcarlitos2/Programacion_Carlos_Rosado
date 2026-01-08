@@ -2,7 +2,7 @@
 //Pedirá un valor N y luego almacenará en un array N alturas introducidas por teclado. Luego
 //mostrará la altura media, máxima y mínima así como cuántas personas miden por encima y
 //por debajo de la media.
-package unidad_6_arrays;
+package unidad_6_arrays.ejercicios_A;
 import java.util.Scanner;
 public class ejercicio_10 {
     public static void main(String[] args) {

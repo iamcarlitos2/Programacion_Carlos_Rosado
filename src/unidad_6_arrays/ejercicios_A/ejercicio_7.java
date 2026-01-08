@@ -1,6 +1,6 @@
 //Crea un programa que pida dos valores enteros P y Q, luego cree un array que contenga
 //todos los valores desde P hasta Q, y lo muestre por pantalla.
-package unidad_6_arrays;
+package unidad_6_arrays.ejercicios_A;
 import java.util.Scanner;
 
 public class ejercicio_7 {

@@ -1,6 +1,6 @@
 //Crea un programa que pida veinte números enteros por teclado, los almacene en un array y
 //luego muestre por separado la suma de todos los valores positivos y negativos
-package unidad_6_arrays;
+package unidad_6_arrays.ejercicios_A;
 import java.util.Scanner;
 
 public class ejercicio_4 {

@@ -1,6 +1,6 @@
 //Crea un programa que pida veinte números reales por teclado, los almacene en un array y
 //luego lo recorra para calcular y mostrar la media: (suma de valores) / nº de valores
-package unidad_6_arrays;
+package unidad_6_arrays.ejercicios_A;
 import java.util.Scanner;
 
 public class ejercicio_5 {

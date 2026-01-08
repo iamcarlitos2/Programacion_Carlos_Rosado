@@ -1,6 +1,6 @@
 //Crea un programa que pida dos valores enteros N y M, luego cree un array de tamaño N,
 //escriba M en todas sus posiciones y lo muestre por pantalla
-package unidad_6_arrays;
+package unidad_6_arrays.ejercicios_A;
 import java.util.Scanner;
 
 public class ejercicio_6 {
