@@ -42,9 +42,10 @@ public class ejercicio_5 {
             if (personas[i][0] == 0){
                 contadorH = contadorH + 1;
                 suma_hombres += personas[i][1];
-            } else {
+            }
+            if (personas[i][0] == 1 ) {
                 contadorM = contadorM + 1;
-                suma_mujeres += personas[i][1];
+                suma_mujeres += personas[i][0];
             }
         }
 
